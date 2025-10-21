@@ -1,0 +1,29 @@
+{
+  "name": "commercebridge-examples",
+  "version": "1.0.0",
+  "description": "Practical code examples for CommerceBridge",
+  "private": true,
+  "scripts": {
+    "example:worker-basic": "ts-node examples/workers/01-basic-worker.ts",
+    "example:worker-lifecycle": "ts-node examples/workers/02-worker-lifecycle.ts",
+    "example:engagement-create": "ts-node examples/engagements/01-create-engagement.ts",
+    "example:engagement-workflow": "ts-node examples/engagements/02-quote-to-order.ts",
+    "example:translator-cxml": "ts-node examples/translators/01-cxml-translation.ts",
+    "example:bridge-custom": "ts-node examples/bridge/01-custom-bridge.ts",
+    "example:integration-kafka": "ts-node examples/integrations/01-kafka-queue.ts",
+    "example:integration-mongodb": "ts-node examples/integrations/02-mongodb-data.ts",
+    "example:end-to-end-order": "ts-node examples/end-to-end/01-complete-order-flow.ts"
+  },
+  "dependencies": {
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
